@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func StartServer() {
+func init() {
 
 	// Get the local (true or false) and convert it into bool value
 	local, _ := strconv.ParseBool(os.Getenv("local"))
