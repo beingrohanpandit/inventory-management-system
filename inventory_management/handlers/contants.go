@@ -1,5 +1,5 @@
 package handlers
 
-import "example.com/inventory_management/models"
+import "example.com/models"
 
 type MyApp models.App

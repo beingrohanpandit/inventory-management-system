@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"example.com/inventory_management/handlers"
-	"example.com/inventory_management/repositories"
+	"example.com/handlers"
+	"example.com/repositories"
 	"github.com/gin-gonic/gin"
 )
 

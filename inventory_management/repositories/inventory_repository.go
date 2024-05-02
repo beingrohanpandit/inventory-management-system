@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"example.com/inventory_management/models"
+	"example.com/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
